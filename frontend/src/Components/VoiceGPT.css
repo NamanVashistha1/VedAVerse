@@ -1,0 +1,18 @@
+/* ChatGPT.css */
+.fixed-chat-icon1 {
+    position: fixed;
+    bottom: 95px;
+    right: 39px;
+    z-index: 1000; /* Adjust the z-index as needed */
+  }
+  
+  .chat-icon-btn1 {
+    border-radius: 50%!important;
+    width: 55px;
+    height: 55px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  
+  

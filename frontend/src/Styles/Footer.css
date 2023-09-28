@@ -1,0 +1,14 @@
+
+.footer-container {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    color: white;
+    border-bottom: 2px solid #293241;
+    border-radius: 2px;
+    background-color: antiquewhite;
+    
+}

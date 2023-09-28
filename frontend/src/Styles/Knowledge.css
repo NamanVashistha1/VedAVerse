@@ -1,0 +1,143 @@
+/* .section-container{
+    border-style: inset;
+}
+.hero-section {
+    padding: 32px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center;
+    gap: 24px; */
+    /* background: linear-gradient(to right, #ECF2FF, #FBFCFF); */
+    /* margin-bottom: 30px; */
+/* } */
+
+/* Text section */
+/* .text-section {
+    width: 60%;
+    padding: 0 32px;
+}*/
+/* .text-headline {
+    margin-bottom: 12px;
+    color: rgb(77, 75, 75);
+    font-family: Poppins, sans serif;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+.text-title {
+    width: 500px;
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-size: 38px;
+    text-align: center;
+    justify-content: end; */
+    /* font-weight: bold; */
+
+/* } */
+/*.text-descritpion {
+    width: 475px;
+    margin: 32px 0;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .7px;
+    line-height: 1.6rem;
+} */
+.text-appointment-btn {
+    padding: 14px 20px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 28px;
+    outline: transparent;
+    background-color: #1A8EFD;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.text-appointment-btn:hover {
+    color: #1A8EFD;
+    background-color: transparent;
+    border: 1px solid #1A8EFD;
+}
+/* .text-stats {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+}
+.text-stats-container {
+    text-align: center;
+}
+.text-stats-container > p {
+    color: rgb(77, 75, 75);
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    letter-spacing: .7px;
+}
+.text-stats-container p:first-child {
+    margin-bottom: 8px;
+    color: #1A8EFD;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+} */
+/* Image section */
+/* .hero-image-section {
+    width: 40%;
+    max-width: 100%;
+    text-align: center;
+}
+.hero-image1 {
+    width: 100%;
+    height: auto;
+} */
+
+/* CSS for Introduction Section */
+.intro {
+    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+    padding: 30px 0;
+  }
+  
+  .intro-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .intro-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .intro-text::before {
+    content: '🕉️'; /* Add a star emoji before each paragraph */
+    margin-right: 10px;
+    font-size: 24px;
+    vertical-align: middle;
+  }
+  
+ .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .sliding-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transform: translateX(100%); /* Start off-screen to the right */
+    transition: transform 2s ease; /* Add a smooth transition effect */
+  }
+  /* Animation when the slide-in class is applied */
+.slide-in {
+    transform: translateX(0); /* Move the image to its original position */
+  }
+  

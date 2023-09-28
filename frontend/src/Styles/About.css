@@ -1,0 +1,248 @@
+/* .about-section {
+    padding: 100px 0px;
+  }
+  .about-section .section-title h3 {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+  }
+  .about-section .section-title h3:before {
+    position: absolute;
+    content: "";
+    background: #ececec;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -120px;
+    height: 1px;
+    width: 240px;
+  }
+  .about-section .section-title h3:after {
+    position: absolute;
+    content: "";
+    background: #48bdc5;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -25px;
+    height: 1px;
+    width: 50px;
+  }
+  .about-section .section-title p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #777777;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+  .about-section .item-holder {
+    position: relative;
+    padding: 55px;
+    margin-bottom: 28px;
+    z-index: 1;
+    cursor: pointer;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    transition: all 1500ms ease;
+  }
+  .about-section .item-holder:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+  }
+  .about-section .item-holder:hover:before {
+    display: none;
+  }
+  .about-section .item-holder:hover:after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 1500ms ease;
+    background: linear-gradient(to right, rgba(122, 102, 203, 0.8) 0%, rgba(72, 189, 197, 0.74) 100%);
+  }
+  .about-section .item-holder .icon-box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .about-section .item-holder i:before {
+    font-size: 55px;
+  }
+  .about-section .item-holder:hover i:before {
+    color: #ffffff;
+  }
+  .about-section .item-holder h6 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #222222;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .about-section .item-holder:hover h6 {
+    color: #ffffff;
+  }
+  .about-section .item-holder h6:before {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    content: "";
+    margin-left: -25px;
+    background: #d1d1d1;
+    height: 1px;
+    width: 55px;
+  }
+  .about-section .item-holder:hover h6:before {
+    background: #ffffff;
+  }
+  .about-section .item-holder p {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 0px;
+  }
+  .about-section .item-holder:hover p {
+    color: #ffffff;
+  } */
+
+/* About Section */
+.service-tab-section {
+    /* Change background color */
+   padding: 60px 0;
+ }
+ 
+ .section-title h3 {
+   position: relative;
+   padding-bottom: 15px;
+   margin-bottom: 30px;
+   font-size: 28px; /* Increase font size */
+   color: #333; /* Change font color */
+ }
+ 
+ .section-title h3:before {
+   position: absolute;
+   content: "";
+   background: #ececec;
+   bottom: 0px;
+   left: 50%;
+   margin-left: -120px;
+   height: 1px;
+   width: 240px;
+ }
+ 
+ .section-title h3:after {
+   position: absolute;
+   content: "";
+   background: #48bdc5;
+   bottom: 0px;
+   left: 50%;
+   margin-left: -25px;
+   height: 1px;
+   width: 50px;
+ }
+ 
+ .section-title p {
+   font-size: 18px; /* Increase font size */
+   line-height: 30px; /* Increase line height */
+   color: #555; /* Change font color */
+   font-weight: 400;
+   padding-bottom: 30px;
+ }
+ 
+ .contents .text p {
+   display: list-item;
+   font-size: 17px;
+   color: #333; /* Change font color */
+   margin-bottom: 15px;
+ }
+ 
+ .img-fluid {
+   height: auto; /* Maintain image aspect ratio */
+   max-width: 100%;
+ }
+ 
+ .btn-style-one {
+   display: inline-block;
+   padding: 10px 20px;
+   margin-top: 20px;
+   font-size: 16px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 600;
+   letter-spacing: 1px;
+   color: #fff;
+   background-color: #48bdc5;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .btn-style-one:hover {
+   background-color: #357b80; /* Change button hover color */
+ }
+ 
+ /* Hover effects for item-holder */
+ .about-section .item-holder {
+   position: relative;
+   padding: 55px;
+   margin-bottom: 28px;
+   z-index: 1;
+   cursor: pointer;
+   background-size: cover !important;
+   background-repeat: no-repeat !important;
+   transition: all 1500ms ease;
+   background-color: #fff; /* Change background color */
+ }
+ 
+ .about-section .item-holder:hover:before {
+   display: none;
+ }
+ 
+ .about-section .item-holder:hover:after {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   content: "";
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   transition: all 1500ms ease;
+   background: linear-gradient(to right, rgba(122, 102, 203, 0.8) 0%, rgba(72, 189, 197, 0.74) 100%);
+ }
+ 
+ .about-section .item-holder .icon-box {
+   position: relative;
+   margin-bottom: 20px;
+ }
+ 
+ .about-section .item-holder i:before {
+   font-size: 55px;
+ }
+ 
+ .about-section .item-holder:hover i:before {
+   color: #ffffff;
+ }
+ 
+ .about-section .item-holder p {
+   position: relative;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 26px;
+   color: #222222;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+ }
+ 
+ .about-section  .item-holder:hover p {
+   color: #ffffff;
+ }
